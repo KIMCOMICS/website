@@ -1,0 +1,58 @@
+:root{
+    --white:#ffffff;
+    --black:#20293A;
+    --grey:#6C727F;
+    --purple:#883AE1;
+
+}
+body{
+
+background:var(--white);
+
+
+}
+.container{
+    padding:80px;
+
+}
+.card , .card-content{
+    width: max-content;
+    margin: 0 auto;
+    box-shadow: 0px 30px 100px 0px 
+    rgba(17, 23, 41, 0.05);
+}
+h1{
+    font-family:Saro;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(12, 12, 20); /* Change the text color */
+    border: 2px solid rgba(10, 3, 20, 0.521); /* Add a border around the word */
+    border-radius: 30px;
+    background-color: #883AE1;
+    padding: 2px; /* Add some space inside the border */
+    display: inline-block; 
+
+    
+
+
+}
+h2{
+    color:var(--black);
+    font-family:saro ;
+    font-family: 18px;
+    font-weight:bold ;
+
+}
+
+p{
+    color:var(--grey);
+    font-family: saro; 
+    font-size:18px ;
+    font-weight: lighter;
+}
+footer{
+    font-family:12px;
+    color:var(--grey);
+
+}
+
